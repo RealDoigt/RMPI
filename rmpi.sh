@@ -68,7 +68,7 @@ echo "authors \"$project_author\"" >> dub.sdl
 echo "license \"$project_license\"" >> dub.sdl
 echo "copyright \"$project_copyright\"" >> dub.sdl
 
-dub add raylib-d
+dub add raylib-d@4.0.0
 
 echo "libs \"raylib\"" >> dub.sdl
 echo "lflags \"-L./lib\"" >> dub.sdl
