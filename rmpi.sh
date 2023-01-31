@@ -43,11 +43,11 @@ mkdir source
 mv ./temp/raylib_misc-main/lib/ ./source/raylib_misc/
 rm -r ./temp/
 
-# mv update_rm.sh ./source/update_rm.sh
+mv update_rm.sh ./source/update_rm.sh
 mv app.d ./source/app.d
 
-# echo 'source/update_rm.sh' > .gitignore 
-echo 'source/raylib_misc/*' > .gitignore
+echo 'source/update_rm.sh' > .gitignore 
+echo 'source/raylib_misc/*' >> .gitignore
 echo $project_name >> .gitignore
 echo '.dub' >> .gitignore
 
